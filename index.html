@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>CRUD App</title>
+  </head>
+  <body>
+    <header>To-do List Application</header>
+    <br /><br />
+    <div class="container">
+      <div class="input-text">
+        <input
+          type="text"
+          placeholder="Type your to-dos...."
+          id="text-input"
+          size="20"
+        />
+        <button onclick="newElement()">+</button>
+      </div>
+      <br /><br /><br /><br />
+      <div class="lists">
+        <ul id="ul-list">
+          <li class="list-items">
+            6 hours of study <span class="close-list">&times;</span
+            ><span class="tick-list">&#10003;</span>
+          </li>
+          <li class="list-items">
+            Learn React.js <span class="close-list">&times;</span
+            ><span class="tick-list">&#10003;</span>
+          </li>
+          <li class="list-items">
+            Buy groceries <span class="close-list">&times;</span
+            ><span class="tick-list">&#10003;</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
